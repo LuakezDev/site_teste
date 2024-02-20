@@ -1,0 +1,139 @@
+/* #home{
+ 
+    background: radial-gradient(circle, rgba(226,226,234,1) 0%, rgba(239,238,245,0.9332983193277311) 100%);
+    position: relative;
+    padding: 60px;
+}
+
+#home img{
+
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 50px;
+    
+} */
+
+
+#empresa{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    display: flex ;
+   
+}
+#cta{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+}
+
+#cta .title{
+    font-size: 3rem;
+    color: 1d1d1d;
+}
+
+#cta .title span{
+
+    color: rgb(48, 48, 202);
+
+}
+
+#cta .description {
+
+    font-size: 1.2rem;
+
+}
+
+#cta_buttons{
+
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone_button {
+
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgb(0,0,0,0.1);
+    border-radius: 12px;
+
+}
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 50%;
+}
+
+#banner img{
+
+   width: 325px;
+   height: 212px;
+   display: block;
+   mix-blend-mode: multiply;
+   
+}
+
+@media screen and (max-width: 1005px){
+    #empresa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cta {
+
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #banner{
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:680px){
+
+    #home{
+
+        min-height: 100%;
+        padding-top: 0px;
+
+    }
+
+    #empresa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cta {
+
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #banner{
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+}
