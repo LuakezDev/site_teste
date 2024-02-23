@@ -1,1 +1,1 @@
-Site Html, CSS , JavaSCRIPT
+Site Html, CSS , JavaScript(Jquery)
