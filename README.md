@@ -1,1 +1,1 @@
-Site Realizado em Html, CSS , JavaScript(Jquery)
+Site Realizado Html, CSS , JavaScript(Jquery)
